@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Blog</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/44a8029e75.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/all.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="./index.html"><img src="./img/log.jpg" alt="BKBIET"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./course.html">Course</a></li>
+                    <li><a href="./blog.html">Admission</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+
+    </section>
+
+    <!-- ------------Blog Page Content---------- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./add img/cartoon.jfif" alt="jpg">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h3>Undergraduate B.Tech programmes</h3>
+                <div>
+                    <span>Electrical Engineering</span>
+                    <span>  60 Seats</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>60 Seats</span>
+                </div>
+                <div>
+                    <span>Mechanical Engineering</span>
+                    <span>60 Seats</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>120 Seats</span>
+                </div>
+                <div>
+                    <span>Information Technology</span>
+                    <span>60 Seats</span>
+                </div>
+                <div>
+                    <span>Electronics & Communication </span>
+                    <span>60 Seats</span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>60 Seats</span>
+                </div>
+                <div>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                </div>
+                <div class="comment-box">
+                    
+                    <form action="" class="comment-form">
+                        <h3>Leave a Comment</h3>
+                        <input type="text" name="" id="" placeholder="Enter Name">
+                        <input type="email" name="" id="" placeholder="Enter Email">
+                        <textarea  rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+
+
+
+            </div>
+            <div class="blog-right">
+               
+                <table   class="table table-borderless">
+                    <tbody>
+                    <tr>
+                    <td colspan="2" width="313"><strong>I SEMESTER </strong></td>
+                    <td colspan="2" width="310"><strong>II SEMESTER</strong></td>
+                    </tr>
+                    <tr>
+                    <td width="217">Tuition Fee</td>
+                    <td width="95">28,000/-</td>
+                    <td width="217">Tuition Fee</td>
+                    <td width="93">28,000/-</td>
+                    </tr>
+                    <tr>
+                    <td width="217">Institute Development Fee</td>
+                    <td width="95">10,500/-</td>
+                    <td width="217">Institute Development Fee</td>
+                    <td width="93">10,500/-</td>
+                    </tr>
+                    <tr>
+                    <td width="217">Facilities &amp; Activities</td>
+                    <td width="95">500/-</td>
+                    <td width="217">Facilities &amp; Activities</td>
+                    <td width="93">500/-</td>
+                    </tr>
+                    <tr>
+                    <td width="217"><strong>TOTAL:</strong></td>
+                    <td width="95"><strong>39,000/-</strong></td>
+                    <td width="217"><strong>TOTAL:</strong></td>
+                    <td width="93"><strong>39,000/-</strong></td>
+                    </tr>
+                    </tbody>
+                    </table>
+                <div class="b">
+                    <a href="./doc/BKBIET-Brochure-2022.pdf" class="footer-btn">Brochure</a>
+                </div>
+           <!--    <div>
+                    <span>Commerce</span>
+                    <span>60 Seats</span>
+                </div>--> 
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -----------Footer------------- -->
+    <section class="footer">
+        <hr>
+        <h6>Join Our Community Now</h6>
+        <p>You would get here industry-oriented engineering education apart from accessible faculties and personal attention</p>
+        <a href="about.html" class="footer-btn">Register Now</a>
+        <div class="icons">
+            <ul>
+           <li><a href="https://www.facebook.com/bkbiet"><i class="fa fa-facebook"></i></a></li>
+           <li><a href="https://www.youtube.com/channel/UCq26hNQlGgaN5D1ZcOIaUQw"><i class="fa fa-youtube"></i></a></li>
+           <li><a href="https://www.instagram.com/bkbietpilani_official/"><i class="fa fa-instagram"></i></a></li>
+           <li><a href="https://www.linkedin.com/school/bkbiet"><i class="fa fa-linkedin"></i></a></li>
+           <li><a href="https://bkbiet.ac.in"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+          <!--  <p>Made With <i class="fas fa-heartbeat"></i> Rajesh</p> -->
+        </div>
+        <hr>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
